@@ -4,25 +4,25 @@
 ослами), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 -----
-mike@mike-VirtualBox:~`$` cat > pets  
+mike@mike-VirtualBox:~ cat > pets  
 dog1 Muhtar    
 dog2 Lassie  
 cat1 Murka  
 cat2 Barsik  
 hamster1 Bunny  
 hamster2 Brut  
-mike@mike-VirtualBox:~`$` cat > sumpters  
+mike@mike-VirtualBox:~ cat > sumpters  
 horse1 Vegas  
 horse2 Angel  
 camel1 Mahmut  
 camel2 Bongo  
 donkey1 Dora  
 donkey2 Ajax  
-mike@mike-VirtualBox:~`$` cat pets sumpters > pets_sumpters  
-mike@mike-VirtualBox:~`$` more pets_sumpters  
-mike@mike-VirtualBox:~`$` mv pets_sumpters friends_of_man  
+mike@mike-VirtualBox:~ cat pets sumpters > pets_sumpters  
+mike@mike-VirtualBox:~ more pets_sumpters  
+mike@mike-VirtualBox:~ mv pets_sumpters friends_of_man  
 
 2. Создать директорию, переместить файл туда.
 -----
-mike@mike-VirtualBox:~`$` mkdir nursey  
-mike@mike-VirtualBox:~`$` mv friends_of_man nursey/
+mike@mike-VirtualBox:~ mkdir nursey  
+mike@mike-VirtualBox:~ mv friends_of_man nursey/
