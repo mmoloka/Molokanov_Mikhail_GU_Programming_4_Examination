@@ -25,4 +25,22 @@ mike@mike-VirtualBox:~ mv pets_sumpters friends_of_man
 2. Создать директорию, переместить файл туда.
 -----
 mike@mike-VirtualBox:~ mkdir nursey  
-mike@mike-VirtualBox:~ mv friends_of_man nursey/
+mike@mike-VirtualBox:~ mv friends_of_man nursey/  
+
+3. Подключить дополнительный репозиторий *MySQL*. Установить любой пакет из этого репозитория.  
+-----
+mike@mike-VirtualBox:~ sudo su  
+mike@mike-VirtualBox:~ wget https://repo.mysql.com//mysql-apt-config_0.8.24-1_all.deb  
+mike@mike-VirtualBox:~ dpkg -i mysql-apt-config_0.8.24-1_all.deb  
+mike@mike-VirtualBox:~ apt update  
+mike@mike-VirtualBox:~ apt install mysql-server  
+
+4. Установить и удалить *deb*-пакет с помощью `dpkg`.
+-----
+mike@mike-VirtualBox:~ wget
+https://download.docker.com/linux/ubuntu/dists/jammy/pool/stable/amd64/containerd.io_1.6.9-1_amd64.deb  
+mike@mike-VirtualBox:~ dpkg -i containerd.io_1.6.9-1_amd64.deb  
+mike@mike-VirtualBox:~ dpkg -r containerd.io  
+
+5. Выложить историю команд в терминале *ubuntu*.
+*****
