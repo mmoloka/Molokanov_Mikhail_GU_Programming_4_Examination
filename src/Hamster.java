@@ -38,4 +38,14 @@ public class Hamster extends Pet {
     public void setHairLength(String hairLength) {
         this.hairLength = hairLength;
     }
+
+    @Override
+    public String toString() {
+        return "Hamster{" +
+                "name='" + name + '\'' +
+                "age='" + age + '\'' +
+                "color='" + color + '\'' +
+                ", hairLength='" + hairLength + '\'' +
+                '}';
+    }
 }

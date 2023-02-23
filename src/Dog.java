@@ -22,6 +22,10 @@ public class Dog extends Pet {
         else System.out.println("Собака не знает команду");
     }
 
+    public void teachCommand() {
+        System.out.println("Отправить собаку на дрессировку");
+    }
+
     public String getColor() {
         return color;
     }
@@ -38,5 +42,13 @@ public class Dog extends Pet {
         this.hairLength = hairLength;
     }
 
-
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                "age='" + age + '\'' +
+                "color='" + color + '\'' +
+                ", hairLength='" + hairLength + '\'' +
+                '}';
+    }
 }
